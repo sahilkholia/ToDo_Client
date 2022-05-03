@@ -2,10 +2,14 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
+import { AddToDoListComponent } from './add-to-do-list/add-to-do-list.component';
+import { RecentComponent } from './recent/recent.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    AddToDoListComponent,
+    RecentComponent
   ],
   imports: [
     BrowserModule

@@ -1,0 +1,24 @@
+@import "../../colors.css";
+
+* {
+  width: 30%;
+  height: 3rem;
+  position: relative;
+  margin-left: 35%;
+  top: 10rem;
+  background-color: var(--head-bg-color);
+  border-radius: 1rem;
+  display: block;
+  text-align: center;
+}
+
+.addTodoButtonText {
+  margin: auto;
+  padding-top: 1.5rem;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 18px;
+  color: var(--font-color);
+}

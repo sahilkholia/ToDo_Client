@@ -1,0 +1,10 @@
+@import "../colors.css";
+
+.recent {
+  background-color: aqua;
+  position: relative;
+  top: 15rem;
+  margin-left: 10%;
+  width: 80%;
+  height: 25rem;
+}
